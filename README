@@ -1,0 +1,9 @@
+Syntax file for editing Avro schema files in Vim.
+
+Installing
+----------
+
+ * Copy avro-idl.vim to ~/.vim/syntax
+ * Add to ~/.vimrc
+    au BufRead,BufNewFile *.avdl setlocal filetype=avro-idl
+
