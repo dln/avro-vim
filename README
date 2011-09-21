@@ -4,6 +4,7 @@ Installing
 ----------
 
  * Copy avro-idl.vim to ~/.vim/syntax
+ * If you use pathogen, just git clone the repo into .vim/bundle
  * Add to ~/.vimrc
     au BufRead,BufNewFile *.avdl setlocal filetype=avro-idl
 
